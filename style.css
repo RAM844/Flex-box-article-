@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: #CAD5E2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    background-color: #50DBB4;
+    height: 300px;
+    width: 300px;
+}
+
+.Child{
+    color: #fff;
+    font-size: 40px;
+    background-color: #03203C;
+    height: 50px;
+    width: 50px;
+    padding: 4px;
+    border: 2px #fff solid ;
+    text-align: center;
+    margin:1px;
+}
+
+
+
+/* add the below code to understand align-items:base-line  */
+/* .container :nth-child(4){
+    font-size: 90px;
+}
+
+.container :nth-child(2){
+    font-size: 10px;
+} */
